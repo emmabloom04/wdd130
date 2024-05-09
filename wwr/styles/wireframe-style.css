@@ -1,14 +1,17 @@
 #hero{
     width: 100%;
     height: 300px;
-    background-image: url('../images/river.png');
+    background-image: url('../images/rivers.jpg');
     background-repeat: no-repeat;
 
 }
 .footer-box{
     width: 150px;
 }
-.footer-one, .card h2, #hero{ 
+#hero{ 
+    color: white;
+}
+.card h2, #footer-one{
     color: purple;
 }
 /* commmas are 'ands' so that you can target multiple ids/classes */
