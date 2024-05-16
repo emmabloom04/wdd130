@@ -1,0 +1,26 @@
+body {
+    background-color: #5DA1D7;
+}
+h1, h3, blockquote{
+    color: white;
+}
+h1:hover {
+    color: black;
+}
+h1, h4, h3, main p, blockquote, footer {
+    text-align: center;
+}
+.list {
+    width: 20%;
+    margin: auto;
+}
+img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+}
+blockquote {
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 3em
+}
