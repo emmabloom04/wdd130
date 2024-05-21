@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+#hero-img {
+    width: 100%;
+}
+#circles {
+    background-color: #737373;
+    padding: 5% 0;
+}
+.desk, .graphic, .person {
+    border-radius: 50%;
+    width: 15%;
+    border: 12px solid #444444;
+}
