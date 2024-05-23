@@ -3,6 +3,7 @@ body {
 }
 #hero-img {
     width: 100%;
+    display: block;
 }
 #circlesbox {
     background-color: #737373;
@@ -10,7 +11,7 @@ body {
 }
 .circle {
     border-radius: 50%;
-    width: 15%;
-    border: 12px solid #444444;
-    margin: 0 8%;
+    width: 20%;
+    border: 15px solid #444444;
+    margin: 0 5%;
 }
