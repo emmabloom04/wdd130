@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Jaro:opsz@6..72&display=swap');
+body {
+    background-color: white;
+    margin: 0;
+}
+main section {
+    text-align: center;
+}
+header {
+    background-color: white;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -10,16 +20,11 @@ nav a {
     text-align: center;
     color: #262626;
     text-decoration: none;
+    font-family: "Dosis", sans-serif, Tahoma, sans-serif, Impact, sans-serif;
 }
 nav a:hover {
     background-color: #B3001B;
     color: white;
-}
-.home-title {
-    color: #B3001B;
-}
-h4 {
-    color: #255C99;
 }
 #hero-img {
     width: 100%;
@@ -27,30 +32,37 @@ h4 {
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
+.home-title {
+    color: #B3001B;
+    font-family: "Jaro", sans-serif, Arial, sans-serif, Verdana, sans-serif;
+}
+h4 {
+    color: #255C99;
+    font-family: "Dosis", sans-serif, Tahoma, sans-serif, Impact, sans-serif;
+}
 .button-box {
     text-align: center;
 }
-main section {
-    text-align: center;
+.book {
+    color: #B3001B;
+    text-decoration: none;
+    font-family: "Dosis", sans-serif, Tahoma, sans-serif, Impact, sans-serif;
+}
+.home-grid h2 {
+    font-family: "Jaro", sans-serif, Arial, sans-serif, Verdana, sans-serif;
 }
 #background {
     height: 725px;
+    background-color: #255C99;
 }
-body {
-    background-color: white;
-    margin: 0;
-}
-header {
-    background-color: white;
+.mountains {
+    margin: 100px 0;
 }
 .join {
     background-color: #B3001B;
     color: #CCAD8F;
     text-decoration: none;
-}
-.book {
-    color: #B3001B;
-    text-decoration: none;
+    font-family: "Dosis", sans-serif, Tahoma, sans-serif, Impact, sans-serif;
 }
 .book:hover, .join:hover {
     background-color: #255C99;
@@ -59,22 +71,21 @@ header {
 .icon {
     width: 80px;
 }
-#background {
-    height: 725px;
-    background-color: #255C99;
-}
 .msg {
     background-color: #B3001B;
 }
 .msg h2 {
+    font-family: "Jaro", sans-serif, Arial, sans-serif, Verdana, sans-serif;
     color: white;
 }
 .msg p {
     color: #262626;
+    font-family: "Dosis", sans-serif, Tahoma, sans-serif, Impact, sans-serif;
 }
 footer {
     background-color: #255C99;
     color: white;
+    font-family: "Dosis", sans-serif, Tahoma, sans-serif, Impact, sans-serif;
 }
 footer a {
     color: #CCAD8F;
@@ -88,7 +99,4 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
-}
-.mountains {
-    margin: 100px 0;
 }
