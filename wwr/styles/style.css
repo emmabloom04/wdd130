@@ -2,12 +2,19 @@
 body {
     background-color: white;
     margin: 0;
+    padding: 0;
 }
 main section {
     text-align: center;
 }
+main section img {
+    box-sizing: border-box;
+}
 header {
     background-color: white;
+}
+h2 {
+    margin: 0;
 }
 #content {
     max-width: 1600px;
@@ -16,11 +23,15 @@ header {
 .logo {
     width: 80px;
 }
+#logo-link {
+    padding-top: 5px;
+}
 nav a {
     text-align: center;
     color: #262626;
     text-decoration: none;
     font-family: "Dosis", sans-serif, Tahoma, sans-serif, Impact, sans-serif;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #B3001B;
@@ -36,6 +47,7 @@ nav a:hover {
     color: #B3001B;
     font-family: "Jaro", sans-serif, Arial, sans-serif, Verdana, sans-serif;
     font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #255C99;
@@ -46,12 +58,23 @@ h4 {
 }
 .book {
     color: #B3001B;
+}
+.book, .join {
     text-decoration: none;
     font-family: "Dosis", sans-serif, Tahoma, sans-serif, Impact, sans-serif;
     font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .home-grid h2 {
     font-family: "Jaro", sans-serif, Arial, sans-serif, Verdana, sans-serif;
+}
+.card-img {
+    border: 10px solid #262626;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 #background {
     height: 725px;
@@ -63,9 +86,6 @@ h4 {
 .join {
     background-color: #B3001B;
     color: #CCAD8F;
-    text-decoration: none;
-    font-family: "Dosis", sans-serif, Tahoma, sans-serif, Impact, sans-serif;
-    font-size: 18px;
 }
 .book:hover, .join:hover {
     background-color: #255C99;
@@ -73,10 +93,12 @@ h4 {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .msg {
     background-color: #B3001B;
     line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     font-family: "Jaro", sans-serif, Arial, sans-serif, Verdana, sans-serif;
@@ -86,11 +108,14 @@ h4 {
     color: #262626;
     font-family: "Dosis", sans-serif, Tahoma, sans-serif, Impact, sans-serif;
     font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #255C99;
     color: white;
     font-family: "Dosis", sans-serif, Tahoma, sans-serif, Impact, sans-serif;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: #CCAD8F;
@@ -104,4 +129,7 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
 }
