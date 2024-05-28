@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+/* <img src="images/cherries.png" alt=""> */
+.cherries-img {
+    background-image: url(../images/cherries.png);
+    width: 100%;
+}
+.gray-background {
+    background-color: #B9B8B9;
+    width: 100%;
+}
+.cherries-text {
+    text-align: center;
+    color: #9C0E11;
+    letter-spacing: 0.3em;
+}
+.big-text {
+    font-size: 4em;
+    text-align: center;
+    grid-column: 1/3;
+    letter-spacing: 0.3em;
+}
