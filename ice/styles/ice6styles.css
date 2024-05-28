@@ -3,12 +3,7 @@ body {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
-}
-/* <img src="images/cherries.png" alt=""> */
-.cherries-img {
-    background-image: url(../images/cherries.png);
-    width: 100%;
+    grid-template-columns: auto;
 }
 .gray-background {
     background-color: #B9B8B9;
