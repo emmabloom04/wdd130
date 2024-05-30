@@ -3,16 +3,23 @@ body {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
+    column-gap: 0;
+}
+.cherries-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .gray-background {
     background-color: #B9B8B9;
-    width: 100%;
 }
 .cherries-text {
     text-align: center;
     color: #9C0E11;
+    font-size: 3em;
     letter-spacing: 0.3em;
+    grid-column: 2/3;
 }
 .big-text {
     font-size: 4em;
