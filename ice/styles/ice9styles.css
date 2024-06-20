@@ -26,15 +26,24 @@ h4 {
 }
 footer {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: #3F5B8B;
+}
+.small-grid {
+    display: grid;
+    grid-template-columns: auto;
+}
+.center {
+    border-right: 1px solid #808080;
+    border-left: 1px solid #808080;
 }
 .grid-item {
     color: white;
     text-align: center;
+    margin: 10% auto;
 }
 .number {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .text {
     font-size: .75em;
