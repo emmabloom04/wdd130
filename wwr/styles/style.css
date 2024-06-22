@@ -198,6 +198,72 @@ footer .social img {
     padding-top: 15px;
 }
 
+.river, .river-title, .river-one, .river-two {
+    padding: 15px 30px;
+}
+.river-two {
+    margin-left: 75%;
+}
+.river {
+    width: 100%;
+    border-radius: 5%;
+}
+.river-title {
+    color: #B3001B;
+    font-family: "Jaro", sans-serif, Arial, sans-serif, Verdana, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.river-info {
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: #B3001B;
+    line-height: 1.5em;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #262626;
+    width: 75%;
+    height: fit-content;
+}
+.river-info p {
+    color: white;
+    font-family: "Dosis", sans-serif, Tahoma, sans-serif, Impact, sans-serif;
+    padding-bottom: 15px;
+}
+.river-one, .river-two {
+    color: #255C99;
+    font-family: "Jaro", sans-serif, Arial, sans-serif, Verdana, sans-serif;
+    margin-top: 10px;
+}
+.gunnison-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.gunnison {
+    grid-column: 1/5;
+    grid-row: 1/4;
+}
+#gunnison {
+    grid-column: 4/8;
+    grid-row: 1/4;
+}
+.arkansas-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: auto auto auto;
+}
+#arkansas {
+    grid-column: 1/4;
+    grid-row: 1/4;
+    margin-left: 5%;
+}
+.arkansas {
+    grid-column: 3/7;
+    grid-row: 1/4;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
